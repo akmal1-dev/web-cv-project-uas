@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Poppins:wght@500;600;700&display=swap');
+
+:root{
+    --main-color : #1F4590;
+    --second-color : #FFA451;
+    --three-color : #ffffff;
+    --body-color : #D0FCFF;
+    --four-color : #5F5E79;
+    --skills-color: #2E2D56;
+
+    --main-font: 'Open Sans', sans-serif;
+    --heading-font : 'Raleway', sans-serif;
+    --about-font : 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--body-color);
+    font-family: var(--main-font);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 200px;
+}
+
+.container{
+    max-width: 1500px;
+}
+
+.navbar-akmal .nav-wrapper-akmal{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 90%;
+}
+.nav-wrapper-akmal .menu-toggle-akmal{
+    display: none;
+}
+.nav-wrapper-akmal .logo-akmal{
+    font-size: 2.8rem;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: var(--main-color);
+}
+.nav-wrapper-akmal .logo-akmal span{
+    font-size: 1.8rem;
+    color: var(--second-color);
+}
+.nav-wrapper-akmal .menu-wrapper-akmal{
+    display: flex;
+    gap: 50px;
+}
+.nav-wrapper-akmal .menu-wrapper-akmal .menu-akmal{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.menu-wrapper-akmal .menu-akmal .menu-link-akmal{
+    font-size: 1.25rem;
+    color: var(--main-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+.menu-wrapper-akmal .menu-akmal .menu-link-akmal.active{
+    font-weight: 700;
+    color: var(--second-color);
+}
+.menu-wrapper-akmal .btn-member{
+    font-family: var(--heading-font);
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--second-color);
+    padding: 25px 30px;
+    border-radius: 50px;
+}
+
+
+/* Home Start */
+.home-akmal{
+    margin-top: 110px;
+    width: 90%;
+
+}
+.home-akmal .home-wrapper-akmal{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.home-wrapper-akmal .heading-home-akmal{
+    font-size: 3.4rem;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--main-color);
+}
+.home-wrapper-akmal .heading-home-akmal span{
+    font-size: 2.48;
+    color: var(--second-color);
+}
+.home-wrapper-akmal .subheading-home-akmal{
+    font-size: 1.125rem;
+    color: #4a4a4a;
+    max-width: 500px;
+    margin: 25px 0;
+}
+.home-wrapper-akmal .box-wrapper-akmal{
+    display: flex;
+    gap: 80px;
+}
+.home-wrapper-akmal .box-wrapper-akmal .box-akmal{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.box-wrapper-akmal .box-akmal .btn-hire-akmal{
+    font-family: var(--heading-font);
+    color: var(--three-color);
+    font-weight: 600;
+    background-color: var(--main-color);
+    padding: 25px 70px;
+    border-radius: 50px;
+}
+.box-wrapper-akmal .box-akmal .btn-cv-akmal{
+    font-family: var(--heading-font);
+    color: var(--main-color);
+    font-weight: 600;
+    background-color: var(--three-color);
+    padding: 25px 70px;
+    border-radius: 50px;
+}
+.content-right-akmal .img-wrapper-akmal{
+    max-width: 600px;
+}
+.content-right-akmal .img-wrapper-akmal img{
+    width: 100%;
+    margin-top: -70px;
+}
+
+
+
+.home-wrapper-akmal .content-left-akmal{
+    flex: 0 0 50%;
+}
+.home-wrapper-akmal .content-right-akmal{
+    flex: 0 0 50%;
+}
+
+/* HOme End */
+
+/* About Start*/
+.about-wrapper-akmal {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.about-wrapper-akmal .content-img-akmal {
+    width: 600px;
+}
+.about-wrapper-akmal .content-about-akmal {
+    width: 500px;
+    margin-top: 150px;
+
+}
+.content-about-akmal .about-akmal{
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+    font-weight: 700;
+
+}
+.content-about-akmal .subabout-akmal {
+    font-size: 1.125rem;
+    font-family: var(--about-font);
+    color: var(--four-color);
+}
+.content-about-akmal .subabout-akmal-second {
+    font-size: 1.125rem;
+    font-family: var(--about-font);
+    color: var(--four-color);
+    padding: 15px 0px;
+}
+/* About end*/
+
+/* Skills */
+.skills-akmal .skills-wrapper-akmal {
+    margin-top: -150px;
+} 
+.skills-wrapper-akmal .row1 {
+    text-align: center;
+}
+.skills-wrapper-akmal .judul-skills-akmal {
+    font-size: 2.25rem;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+    font-weight: 700;
+    padding: 32px;
+}
+.skills-wrapper-akmal .row2 {
+    /* background-color: var(--main-color); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 50px;
+}
+.box-skills-akmal .box-akmal {
+    width: 350px;
+    height: 200px;
+    border-style: solid;
+    border-color: #6D6D6D;
+    border-radius: 0px 50px 0px 0px;
+}
+.box-akmal .kotak-akmal i{
+    font-size: 4rem;
+    border-radius: 10px;
+    background: linear-gradient(#1254FF,#70F6FF);
+    width: 70px;
+    margin-left: 15px;
+    margin-top: -45px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.box-akmal .judul-box-akmal {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+    color: var(--skills-color);
+}
+.box-akmal .ket-box-akmal {
+    font-size: 1.125rem;
+    color: var(--four-color);
+    padding: 15px;
+    margin-top: -20px;
+}
+
+/* Skills end */
+
+/* Service */
+.service-akmal .service-akmal-wrapper {
+    margin-top: -200px;
+} 
+.service-akmal-wrapper .row1 {
+    text-align: center;
+}
+.service-akmal-wrapper .judul-service-akmal {
+    font-size: 2.25rem;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+    font-weight: 700;
+    padding: 52px;
+}
+.service-akmal-wrapper .row2-akmal {
+    /* background-color: var(--main-color); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 50px;
+}
+.box-service-akmal .bx-service-akmal {
+    width: 350px;
+    height: 200px;
+    /* border-style: solid; */
+    border-color: #6D6D6D;
+    border-radius: 0px 50px 0px 0px;
+}
+.box-service-akmal:hover {
+    width: 350px;
+    height: 200px;
+    border-style: solid; 
+    /* border-color: #6D6D6D; */
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--main-color);
+    color: white;
+}
+.box-service-akmal:hover .judul-box-akmal{
+    color: #fff;
+}
+.box-service-akmal:hover .ket-box-akmal {
+    color: white;
+}
+.box-service-akmal .kotak-akmal img{
+    border-radius: 10px;
+    /* background: linear-gradient(#1254FF,#70F6FF); */
+    width: 70px;
+    margin-left: 140px;
+    margin-top: -45px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.box-service-akmal .judul-box-akmal {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+    color: var(--skills-color);
+}
+.box-service-akmal .ket-box-akmal {
+    font-size: 1.125rem;
+    color: var(--four-color);
+    padding: 15px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+/* Service end*/
+
+/* Pricing Start */
+.pricing-akmal .pricing-wrapper-akmal {
+    margin-top: -200px;
+} 
+.pricing-wrapper-akmal .row1-pricing-akmal {
+    text-align: center;
+}
+.pricing-wrapper-akmal .judul-pricing-akmal {
+    font-size: 2.25rem;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+    font-weight: 700;
+    padding: 52px;
+}
+.pricing-wrapper-akmal .row2-pricing-akmal {
+    /* background-color: var(--main-color); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 50px;
+}
+.box-pricing-akmal .bx-pricing-akmal {
+    width: 350px;
+    height: 200px;
+    border-style: solid;
+    border-color: #6D6D6D;
+    border-radius: 10px 10px 10px 10px;
+}
+.bx-pricing-akmal p {
+    text-align: center;
+    padding: 5px 0px;
+}
+.box-pricing-akmal .kotak-pricing-akmal img{
+    border-radius: 10px;
+    /* background: linear-gradient(#1254FF,#70F6FF); */
+    width: 70px;
+    margin-left: 140px;
+    margin-top: -45px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.box-pricing-akmal .judul-box-pricing-akmal {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+    color: var(--skills-color);
+}
+.box-pricing-akmal .ket-box-pricing-akmal {
+    font-size: 1.125rem;
+    color: var(--four-color);
+    padding: 15px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+/* Pricing end */
+
+/* Portofolio */
+.portofolio .portofolio-wrapper-akmal {
+    margin-top: -200px;
+}
+.portofolio-wrapper-akmal .row1 .portofolio-heading-akmal{
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+    font-weight: 700;
+    padding: 32px;
+}
+.portofolio-wrapper-akmal .row2{
+    /* background-color: #1254FF; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+}
+.portofolio-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.portofolio-gallery-akmal a span {
+    display: block;
+    width: 394px;
+    height: 225px;
+    background-color: rgba(200, 200, 200, .5);
+    position: relative;
+    top: 0;
+    text-align: center;
+    line-height: 225px;
+    color: #4a4a4a;
+    text-shadow: 1px 1px 1px #ddd;
+    margin-top: -230px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.portofolio-gallery-akmal a:hover span{
+    opacity: 1;
+}
+
+.portofolio img{
+    width: 394px;
+    border-radius: 0;
+}
+
+/* TESTI START */
+.testi-wrapper-akmal{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.testi-wrapper-akmal .col-heading-akmal, .col-slider-testi-akmal{
+    width: 550px;
+}
+.testi-wrapper-akmal .col-heading-akmal .label-testi-akmal{
+    font-size: 25px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--second-color);
+}
+.testi-wrapper-akmal .col-heading-akmal .heading-testi-akmal{
+    font-size: 36px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: #4a4a4a;
+    margin: 25px 0;
+}
+.col-slider-testi-akmal .card-testi-akmal{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.103);
+    padding: 30px;
+    text-align: center;
+}
+.card-testi-akmal .text-testi-akmal{
+    padding: 20px;
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+.testi-akmal .bxs-quote-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.testi-akmal .bxs-quote-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.card-testi-akmal .status-akmal{
+    margin-top: 5px;
+    color: var(--second-color);
+}
+/* TESTI END */
+
+/* Portofolio Detail */
+
+.portofolio-detail-akmal .portofolio-detail-wrapper-akmal {
+    margin-top: -200px;
+}
+.portofolio-detail-wrapper-akmal{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.portofolio-detail-wrapper-akmal .col-heading-akmal, .col-slider-portofolio-akmal{
+    width: 600px;
+}
+.portofolio-detail-wrapper-akmal .col-heading-akmal .label-portofolio-detail-akmal{
+    font-size: 25px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--second-color);
+}
+.portofolio-detail-wrapper-akmal .col-heading-akmal{
+    font-size: 36px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: #4a4a4a;
+    margin: 25px 0;
+}
+.card-portofolio-detail-akmal {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card-portofolio-detail-akmal .heading-portofolio-detail-akmal {
+    font-family: var(--heading-font);
+    color: var(--four-color);
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.card-portofolio-detail-akmal ul li {
+    padding: 5px 25px;
+    font-family: var(--heading-font);
+    font-size: 15px;
+}
+.col-slider-portofolio-akmal .card-slider-portofolio-akmal img{
+    background-color: #fff;
+    /* border-radius: 15px; */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.103);
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+}
+.card-slider-portofolio-akmal{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+/* Portofolio Detail */
+
+/*Contact*/
+.contact-akmal .contact-akmal-wrapper {
+    margin-top: -200px;
+}
+.contact-akmal-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.col-heading-akmal {
+        width: 400px;
+
+}
+.card-contact-akmal {
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card-contact-akmal ul li {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.card-contact-akmal, .lokasi, .mail, .nomor{
+    font-size: 1.990rem;
+    margin-left: 25px;
+    padding: 1px;
+    color: var(--main-color);
+}
+
+.card-contact-akmal p{
+    font-size: 20px;
+    font-family: var(--main-font);
+    margin-top: 2px;
+}
+.card-contact-akmal span {
+    font-size: 13px;
+    color: var(--four-color);
+}
+/* .card-contact-akmal .icon-contact{
+    display: flex;
+} */
+.icon-contact p {
+    margin-left: -1px;
+}
+.col-contact-akmal {
+    margin-top: 20px;
+    width: 700px;
+    background-color: #fff;
+    /* border-radius: 15px; */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.103);
+    padding: 30px;
+    text-align: center;
+    height: 450px;
+}
+.col-contact-akmal .nama{
+    width: 250px;
+    padding: 20px 30px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.103); */
+    border:solid rgba(0, 0, 0, 0.103);
+    outline: none;
+    border-width: 1px;
+}
+.col-contact-akmal .email{
+    width: 250px;
+    padding: 20px 30px;
+    background-color: #fff;
+    border:solid rgba(0, 0, 0, 0.103);
+    outline: none;
+    border-width: 1px;
+}
+.col-contact-akmal .subject{
+    margin-top: 10px;
+    width: 505px;
+    padding: 20px 30px;
+    background-color: #fff;
+    border:solid rgba(0, 0, 0, 0.103);
+    outline: none;
+    border-width: 1px;
+}
+#pesan {
+        margin-top: 10px;
+    width: 505px;
+    padding: 20px 30px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.103); */
+    border:solid rgba(0, 0, 0, 0.103);
+    outline: none;
+    border-width: 1px;
+}
+.button-contact{
+    background-color: var(--main-color);
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+.btn-contact {
+    color: #ffffff;
+}
+/*Contact*/
+
+/* Footer */
+.footer{
+    margin-top: 200px;
+}
+.footer-wrapper-akmal{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-1-footer-akmal .logo-footer-akmal{
+    font-family: var(--heading-font);
+    font-size: 50px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+.logo-footer-akmal span{
+    font-size: 25px;
+    color: var(--second-color);
+}
+.col-1-footer-akmal .subheading-footer-akmal{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+.sosmed-icon-akmal i{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin: 20px 5px;
+}
+.col-5-footer-akmal .copy-akmal{
+    margin-top: 160px;
+}
+
+/* footer end */
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 991px) {
+    .navbar-akmal .nav-wrapper-akmal{
+        padding: 0 30px;
+    }
+    .nav-wrapper-akmal .menu-wrapper-akmal .menu-akmal{
+        gap: 50px;
+       
+    }
+    .menu-wrapper-akmal .menu-akmal .menu-link-akmal{
+        font-size: 1rem;
+    }
+    .menu-wrapper-akmal .btn-member-akmal{
+        padding: 20px 25px;
+    }
+    .home-wrapper .heading{
+        font-size: 2.5rem;
+    }
+    .content-left .form-panel{
+        width: 480px;
+        height: 90px;
+    }
+    .form-panel .title-form{
+        width: 200px;
+        padding: 7px 0;
+    
+    }
+    .content-right .img-wrapper{
+        max-width: 600px;
+    }
+    .content-left .sugestion{
+        font-size: 12px;   
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-wrapper-akmal .menu-wrapper-akmal{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-bottom: 3rem;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .5s ease-in-out;
+        background-color: var(--main-color);
+        z-index: 2;
+    }
+    .nav-wrapper-akmal .menu-wrapper-akmal.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .5s ease-in-out;
+    }
+    .menu-toggle-akmal.bx-x{
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+    .nav-wrapper-akmal .menu-wrapper-akmal .menu-akmal{
+       display: block;
+    }
+   .menu-wrapper-akmal .menu-akmal .menu-item-akmal{
+       margin: 30px 0;
+    }
+    .menu-akmal .menu-item-akmal .menu-link-akmal{
+        color: #fff;
+    }
+    .nav-wrapper-akmal .menu-toggle-akmal{
+        display: initial;
+        font-size: 2.5rem;
+        color: var(--main-color);
+        transition: .5s;
+    }
+    .home-wrapper-akmal .content-right-akmal{
+        display: none;
+    }
+    .home-wrapper .content-left{
+        text-align: center;
+        flex: 0 0 100%;
+    }
+    .home-wrapper .subheading{
+       margin: auto;
+    }
+    .home-wrapper .box-wrapper{
+        margin-top: 20px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .box-akmal a{
+        font-size: 15px;
+        text-align: center;
+    }
+    .testi-wrapper-akmal .col-heading-akmal{
+        text-align: center;
+        margin: auto;
+    }
+    .testi-wrapper-akmal .col-slider-testi-akmal{
+        text-align: center;
+        margin: 40px auto;
+        width: 400px;
+    }
+    .footer{
+        padding: 10px 20px;
+    }
+    .footer .footer-wrapper-akmal{
+        justify-content: start;
+        gap: 10px;
+    }
+    .footer-wrapper-akmal .col-5-footer{
+        margin-top: 20px;
+    }
+    .col-contact-akmal{
+        width: 500px;
+        height: 480px;
+        margin-left: 15px;
+    }
+    .col-contact-akmal .nama{
+        width: 250px;
+    }
+    .col-contact-akmal .email{
+        margin-top: 10px;
+    }
+    .col-contact-akmal #pesan{
+        width: 250px;
+    }
+    .col-contact-akmal .subject{
+        width: 250px;
+    }
+    .col-contact-akmal .button-contact {
+        margin: auto;
+    }
+    .portofolio-detail-akmal .col-slider-portofolio-akmal{
+        width: 450px;
+        margin: auto;
+    }
+    .col-slider-portofolio-akmal img {
+        width: 100%;
+    }
+    .card-portofolio-detail-akmal {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+   .testi-wrapper-akmal .col-slider-testi-akmal{
+       margin: 30px auto;
+       width: 400px;
+   }
+  
+    .footer .footer-wrapper-akmal{
+        justify-content: start;
+        gap: 30px;
+    }
+}
